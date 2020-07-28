@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@400;600;700;800&display=swap');
+
+:root{
+	--color-morado: #5c0bb7;
+	--color-gris: #f6f6f6;
+	--color-gris-claro: #fdfdfd;
+	--color-hover-gris: #efefef;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #212529;
+	line-height: 1.8 !important;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky{
+	background-color:#000 !important;
+}
+
+.lista-redes a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: #ccc;
+	display: block;
+	color: #fff;
+}
+.lista-redes li{
+	padding-right: 10px;
+}
+.lista-redes .facebook{
+	background-color: #3b5998;
+}
+.lista-redes .twitter{
+	background-color: #0c9aca;
+}
+
+#hero {
+	background-image: url(../img/oshine-v19-intro.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	color: #fff;
+	height: 100vh;
+}
+
+#hero h1{
+	font-size: 70px;
+	font-weight: 800;
+	margin-bottom: 5%;
+	padding-top: 10%;
+}
+
+#hero h2{
+	font-size: 20px;
+	margin-bottom: 5%;
+}
+
+.btn-morado{
+	background-color: var(--color-morado);
+	text-transform: uppercase;
+	padding: 15px 40px;
+	border-radius: 40px;
+	border: 3px solid var(--color-morado);
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.btn-about{
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 15px 40px;
+	border-radius: 40px;
+	border: 3px solid #fff;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+
+.btn-about:hover{
+	background-color: var(--color-morado);
+	border-color: var(--color-morado);
+}
+
+.overlay-hero{
+	background-color: rgba(0, 0, 0, 0.80);
+	padding-top: 10%;
+	height: 100%;
+}
+
+#About{
+	background-color: var(--color-morado);
+	text-align: center;
+	color: #fff;
+	padding: 10%;
+}
+
+#About h3{
+	text-transform: uppercase;
+	font-size: 17px;
+	padding-bottom: 5%;
+}
+
+#About h2{
+	font-weight: 100;
+}
+
+#features{
+	text-align: center;
+	background-color: var(--color-gris);
+}
+
+.tarjeta:hover{
+	background-color: var(--color-hover-gris);
+}
+
+#features article{
+	padding: 5%;
+	color: #7b7b7b;
+}
+
+#features article:nth-child(){
+	background-color: var(--color-gris-claro);
+}
+
+.fondo-Blanco{
+	background-color: #fff;
+}
+
+#features i{
+	color: var(--color-morado);
+	font-size: 40px;
+	padding-bottom: 5%;
+}
+
+#features h2{
+	color: #222;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 16px;
+	padding: 5%;
+}
+
+.titulo{
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.subtitulo{
+	color: #2d2d2d;
+	font-size: 17px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#team .titulo{
+	margin-bottom: 2%;
+}
+
+#team{
+	text-align: center;
+}
+
+#team h4{
+	color: #2d2d2d;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 4% 0;
+}
+
+#team h5{
+	color: #2d2d2d;
+	font-size: 14px;
+	margin: 3% 0;
+}
+
+#team ul a{
+	color: #2d2d2d;
+}
+
+#team ul a:hover{
+	color: var(--color-morado);
+}
+
+#team img{
+	filter: grayscale(1);
+	transition: all 0.3s ease-in-out;
+}
+
+#team img:hover{
+	filter: grayscale(0);
+	transition: all 0.3s ease-in-out;
+}
+
+#frase{
+	background-image: url(..//img/bg-parallax.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	height: 20vh;
+	color: #fff;
+}
+
+#frase h5{
+	padding: 8% 0;
+}
+
+#frase i{
+	color: var(--color-morado);
+}
+
+#Redefining{
+	padding: 5%;
+	background-color: #ecf0f1;
+}
+
+#Redefining h2{
+	padding: 10% 0;
+	font-weight: 700;
+}
+
+.btn-gris{
+	background-color: #858585;
+	text-transform: uppercase;
+	padding: 15px 40px;
+	border-radius: 40px;
+	border: 3px solid #858585;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+
+.btn-gris:hover{
+	background-color: var(--color-morado);
+	border-color: var(--color-morado);
+}
+
+#Building{
+	padding: 8% 0;
+}
+
+#Building h2{
+	padding: 10% 0;
+	font-weight: 700;
+}
